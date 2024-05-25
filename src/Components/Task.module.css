@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+}
+
+.head {
+  display: flex;
+}
+
+.box p {
+  margin-left: 48%;
+  margin-top: 15px;
+}
+
+.box button {
+  margin-left: 40%;
+  margin-right: 1px;
+  margin-bottom: 5px;
+  margin-top: 1px;
+}
+
+.box hr {
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+.box h1 {
+  margin: 10px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  border: 2px black solid;
+  border-style: ridge;
+  border-radius: 5px;
+  margin: 5px;
+}
