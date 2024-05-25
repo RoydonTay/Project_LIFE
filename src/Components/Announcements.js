@@ -4,10 +4,13 @@ import Activity from "./Activity";
 
 function Announcements() {
   return (
-    <div className={styles.table}>
-      <Activity />
-      <Activity />
-    </div>
+    <>
+      <div style={{ fontSize: "30px" }}>Announcements</div>
+      <div className={styles.table}>
+        <Activity />
+        <Activity />
+      </div>
+    </>
   );
 }
 
