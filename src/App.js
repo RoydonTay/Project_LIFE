@@ -1,13 +1,13 @@
 import "./App.css";
 import * as React from "react";
 import Task from "./Components/Task";
-import Activity from "./Components/Activity";
+import Announcements from "./Components/Announcements";
 
 function App() {
   return (
     <>
       <Task />
-      <Activity />
+      <Announcements />
     </>
   );
 }
